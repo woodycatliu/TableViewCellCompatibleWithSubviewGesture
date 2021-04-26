@@ -18,6 +18,7 @@
 		5B5439A52635CA5B00C97C03 /* protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5439A42635CA5B00C97C03 /* protocol.swift */; };
 		5B5439AB2635CC4800C97C03 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5439AA2635CC4800C97C03 /* TextView.swift */; };
 		5B5439B32635CDE600C97C03 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5439B22635CDE600C97C03 /* TableViewCell.swift */; };
+		7F800A2126364B5600FB7AB7 /* TextViewV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F800A2026364B5600FB7AB7 /* TextViewV2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		5B5439A42635CA5B00C97C03 /* protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocol.swift; sourceTree = "<group>"; };
 		5B5439AA2635CC4800C97C03 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		5B5439B22635CDE600C97C03 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		7F800A2026364B5600FB7AB7 /* TextViewV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewV2.swift; sourceTree = "<group>"; };
+		7F800A2526364C4B00FB7AB7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,7 @@
 				5B54397A2635CA0900C97C03 /* Assets.xcassets */,
 				5B54397C2635CA0900C97C03 /* LaunchScreen.storyboard */,
 				5B54397F2635CA0900C97C03 /* Info.plist */,
+				7F800A2526364C4B00FB7AB7 /* README.md */,
 			);
 			path = TableViewCellCompatibleWithSubviewGesture;
 			sourceTree = "<group>";
@@ -140,6 +144,7 @@
 			children = (
 				5B5439A42635CA5B00C97C03 /* protocol.swift */,
 				5B5439AA2635CC4800C97C03 /* TextView.swift */,
+				7F800A2026364B5600FB7AB7 /* TextViewV2.swift */,
 				5B5439B22635CDE600C97C03 /* TableViewCell.swift */,
 			);
 			path = Demo;
@@ -279,6 +284,7 @@
 				5B5439722635CA0700C97C03 /* AppDelegate.swift in Sources */,
 				5B5439742635CA0700C97C03 /* SceneDelegate.swift in Sources */,
 				5B5439B32635CDE600C97C03 /* TableViewCell.swift in Sources */,
+				7F800A2126364B5600FB7AB7 /* TextViewV2.swift in Sources */,
 				5B5439A52635CA5B00C97C03 /* protocol.swift in Sources */,
 				5B5439AB2635CC4800C97C03 /* TextView.swift in Sources */,
 			);

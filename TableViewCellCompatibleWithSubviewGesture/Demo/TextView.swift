@@ -8,7 +8,7 @@
 import UIKit
 
 class TextView: UITextView {
-    
+        
     weak var selectedDelegate: TransferDidSelectedTouchViewDelegate?
 
 }
@@ -16,9 +16,11 @@ class TextView: UITextView {
 
 extension TextView: UIGestureRecognizerDelegate {
     override func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
-        if gestureRecognizer.name != "UITextInteractionNameLinkTap" {
+        let name = gestureRecognizer.name
+        if name != "UITextInteractionNameLinkTap" && name != "UITextInteractionNameInteractiveLoupe" {
             selectedDelegate?.didSelected()
         }
         return true
     }
 }
+
