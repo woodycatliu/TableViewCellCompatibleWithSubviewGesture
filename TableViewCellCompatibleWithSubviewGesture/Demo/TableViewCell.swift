@@ -13,12 +13,12 @@ class TableViewCell: UITableViewCell {
     
     var indexPath: IndexPath?
     
-    lazy var textView: TextView = {
-        let tv = TextView()
+    lazy var textView: TextViewV2 = {
+        let tv = TextViewV2()
         tv.dataDetectorTypes = [.link]
         tv.isEditable = false
         tv.isScrollEnabled = false
-        tv.selectedDelegate = self
+//        tv.selectedDelegate = self
         tv.font = .systemFont(ofSize: 15)
         contentView.addSubview(tv)
         tv.translatesAutoresizingMaskIntoConstraints = false
@@ -38,6 +38,8 @@ class TableViewCell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
+    
+    
     
     
 }

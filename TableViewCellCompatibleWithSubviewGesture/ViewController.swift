@@ -27,7 +27,7 @@ class ViewController: UITableViewController {
         
         cell.indexPath = indexPath
         cell.textView.text = textContent
-        cell.selectedDelegate = self
+//        cell.selectedDelegate = self
         
         
         return cell
